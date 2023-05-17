@@ -37,8 +37,4 @@ describe('Testes da API de Tarefas', () => {
     expect(response.status).toBe(200);
     expect(response.text).toBe('Tarefa removida com sucesso!');
   });
-
-
-
-
 });
